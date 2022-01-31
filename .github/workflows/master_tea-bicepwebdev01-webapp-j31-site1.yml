@@ -50,7 +50,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'TEA-Bicepwebdev01-webapp-j31-site2'
+          app-name: 'TEA-Bicepwebdev01-webapp-j31-site1'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BE074CEF64124A1AAB16983E0FCAE04C }}
           package: .
